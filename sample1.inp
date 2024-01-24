@@ -1,0 +1,43 @@
+alta_pacient Alice 30 grip 3
+alta_pacient Bob 40 esquinç 2
+alta_pacient Charlie 50 atac_de_cor 1
+alta_pacient John_Doe 35 febre 3
+alta_pacient Jane_Smith 4 mal_de_cap 3
+alta_pacient Bob_Johnson 50 braç_trencat 2
+alta_pacient Alice_Brown 30 mal_de_panxa 3
+alta_pacient Mary_Williams 25 encostipat 3
+alta_pacient David_Lee 55 dolor_toràcic 1
+alta_doctor Dr_Smith
+alta_doctor Dr_Cooper
+alta_pacient Alice 30 grip 3
+alta_doctor Dr_Smith
+llista_espera
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+llista_espera
+llista
+modificar_estat_pacient Mary_Williams 2
+llista_espera
+modificar_estat_pacient Mary_Williams 4
+llista_espera
+programar_visita Alice_Brown Dr_Smith 30 4 2023
+programar_visita Mary_Williams Dr_Smith 27 4 2023
+programar_visita Alice_Brown Dr_Smith 28 4 2023
+programar_visita John_Doe Dr_Smith 28 4 2023
+mostrar_programacio_visites
+cancellar_visita Alice_Brown Dr_Smith 30 4 2023
+mostrar_programacio_visites
+programar_visita Alice_Brown Dr_Cooper 1 5 2023
+baixa_pacient David_Lee
+llista_espera
+baixa_pacient John_Doe
+mostrar_programacio_visites
+llista_espera
+baixa_pacient Alice_Brown
+mostrar_programacio_visites
+llista_espera
+cancellar_visita Alice_Brown Dr_Smith 28 4 2023
+fi

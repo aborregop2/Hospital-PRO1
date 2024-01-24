@@ -1,0 +1,97 @@
+alta_pacient Alice  30 grip 3
+alta_pacient Bob  40 esquinç 2
+alta_pacient Charlie  50 atac_de_cor 1
+alta_pacient John_Doe  35 febre 3
+alta_pacient Jane_Smith  4 mal_de_cap 3
+alta_pacient Bob_Johnson  50 braç_trencat 2
+alta_pacient Alice_Brown  30 mal_de_panxa 3
+alta_pacient Mary_Williams  25 encostipat 3
+alta_pacient David_Lee  55 dolor_toràcic 1
+alta_doctor Dr_Smith
+alta_doctor Dr_Cooper
+alta_pacient Alice  30 grip 3
+  error
+alta_doctor Dr_Smith
+  error
+llista_espera
+  Charlie  50 atac_de_cor 1
+  David_Lee  55 dolor_toràcic 1
+  Bob  40 esquinç 2
+  Bob_Johnson  50 braç_trencat 2
+  Alice  30 grip 3
+  John_Doe  35 febre 3
+  Jane_Smith  4 mal_de_cap 3
+  Alice_Brown  30 mal_de_panxa 3
+  Mary_Williams  25 encostipat 3
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+llista_espera
+  John_Doe  35 febre 3
+  Jane_Smith  4 mal_de_cap 3
+  Alice_Brown  30 mal_de_panxa 3
+  Mary_Williams  25 encostipat 3
+llista
+  error
+modificar_estat_pacient Mary_Williams 2
+llista_espera
+  Mary_Williams  25 encostipat 2
+  John_Doe  35 febre 3
+  Jane_Smith  4 mal_de_cap 3
+  Alice_Brown  30 mal_de_panxa 3
+modificar_estat_pacient Mary_Williams 4
+  error
+llista_espera
+  Mary_Williams  25 encostipat 2
+  John_Doe  35 febre 3
+  Jane_Smith  4 mal_de_cap 3
+  Alice_Brown  30 mal_de_panxa 3
+programar_visita Alice_Brown Dr_Smith 30 4 2023
+programar_visita Mary_Williams Dr_Smith 27 4 2023
+programar_visita Alice_Brown Dr_Smith 28 4 2023
+programar_visita John_Doe Dr_Smith 28 4 2023
+mostrar_programacio_visites 
+  Dr_Smith
+  27/4/2023 Mary_Williams
+  28/4/2023 Alice_Brown
+  28/4/2023 John_Doe
+  30/4/2023 Alice_Brown
+  Dr_Cooper
+cancellar_visita Alice_Brown Dr_Smith 30 4 2023
+mostrar_programacio_visites 
+  Dr_Smith
+  27/4/2023 Mary_Williams
+  28/4/2023 Alice_Brown
+  28/4/2023 John_Doe
+  Dr_Cooper
+programar_visita Alice_Brown Dr_Cooper 1 5 2023
+baixa_pacient David_Lee
+llista_espera
+  Mary_Williams  25 encostipat 2
+  John_Doe  35 febre 3
+  Jane_Smith  4 mal_de_cap 3
+  Alice_Brown  30 mal_de_panxa 3
+baixa_pacient John_Doe
+mostrar_programacio_visites 
+  Dr_Smith
+  27/4/2023 Mary_Williams
+  28/4/2023 Alice_Brown
+  Dr_Cooper
+  1/5/2023 Alice_Brown
+llista_espera
+  Mary_Williams  25 encostipat 2
+  Jane_Smith  4 mal_de_cap 3
+  Alice_Brown  30 mal_de_panxa 3
+baixa_pacient Alice_Brown
+mostrar_programacio_visites 
+  Dr_Smith
+  27/4/2023 Mary_Williams
+  Dr_Cooper
+llista_espera
+  Mary_Williams  25 encostipat 2
+  Jane_Smith  4 mal_de_cap 3
+cancellar_visita Alice_Brown Dr_Smith 28 4 2023
+  error
+fi

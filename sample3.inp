@@ -1,0 +1,14 @@
+alta_pacient Alice 50 atac_de_cor 1
+alta_pacient Bob_Johnson 23 fractura_cama 1
+alta_pacient Jane_Jones 55 dolor_toràcic 1
+llista_espera
+tractar_seguent_pacient
+llista_espera
+mostrar_programacio_visites
+programar_visita Jane_Jones Dr_Smith 5 5 2023
+baixa_pacient Jane_Jones
+baixa_pacient Charlie
+llista_espera
+tractar_seguent_pacient
+llista_espera
+fi

@@ -1,0 +1,62 @@
+alta_pacient Alice  30 grip 3
+alta_pacient Bob  18 esquinç 2
+alta_pacient Alice  50 atac_de_cor 1
+  error
+alta_pacient Alexa_Doe  15 febre 3
+alta_pacient David_Lee  4 mal_de_cap 3
+alta_pacient Bob_Johnson  23 fractura_cama 2
+alta_pacient Jane_Jones  55 dolor_toràcic 1
+alta_doctor Dr_Smith
+alta_doctor Dr_Cooper
+llista_espera
+  Jane_Jones  55 dolor_toràcic 1
+  Bob  18 esquinç 2
+  Bob_Johnson  23 fractura_cama 2
+  Alice  30 grip 3
+  Alexa_Doe  15 febre 3
+  David_Lee  4 mal_de_cap 3
+tractar_seguent_pacient
+llista_espera
+  Bob  18 esquinç 2
+  Bob_Johnson  23 fractura_cama 2
+  Alice  30 grip 3
+  Alexa_Doe  15 febre 3
+  David_Lee  4 mal_de_cap 3
+modificar_estat_pacient Laura 2
+  error
+programar_visita Jane Dr_Smith 2 5 2023
+  error
+programar_visita Jane_Jones Dr_Smith 2 5 2023
+programar_visita Charlie Dr_Cooper 2 5 2023
+  error
+mostrar_programacio_visites 
+  Dr_Smith
+  2/5/2023 Jane_Jones
+  Dr_Cooper
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+  error
+llista_espera
+mostrar_programacio_visites 
+  Dr_Smith
+  2/5/2023 Jane_Jones
+  Dr_Cooper
+baixa_pacient Jane_Jones
+baixa_pacient Charlie
+  error
+mostrar_programacio_visites 
+  Dr_Smith
+  Dr_Cooper
+programar_visita Jane Dr_Smith 5 5 2023
+  error
+modificar_estat_pacient Alexa_Doe 1
+llista_espera
+  Alexa_Doe  15 febre 1
+tractar_seguent_pacient
+tractar_seguent_pacient
+  error
+fi

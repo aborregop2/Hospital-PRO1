@@ -1,0 +1,34 @@
+alta_pacient Alice 30 grip 3
+alta_pacient Bob 18 esquinç 2
+alta_pacient Alice 50 atac_de_cor 1
+alta_pacient Alexa_Doe 15 febre 3
+alta_pacient David_Lee 4 mal_de_cap 3
+alta_pacient Bob_Johnson 23 fractura_cama 2
+alta_pacient Jane_Jones 55 dolor_toràcic 1
+alta_doctor Dr_Smith
+alta_doctor Dr_Cooper
+llista_espera
+tractar_seguent_pacient
+llista_espera
+modificar_estat_pacient Laura 2
+programar_visita Jane Dr_Smith 2 5 2023
+programar_visita Jane_Jones Dr_Smith 2 5 2023
+programar_visita Charlie Dr_Cooper 2 5 2023
+mostrar_programacio_visites
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+tractar_seguent_pacient
+llista_espera
+mostrar_programacio_visites
+baixa_pacient Jane_Jones
+baixa_pacient Charlie
+mostrar_programacio_visites
+programar_visita Jane Dr_Smith 5 5 2023
+modificar_estat_pacient Alexa_Doe 1
+llista_espera
+tractar_seguent_pacient
+tractar_seguent_pacient
+fi
